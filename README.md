@@ -1,0 +1,2 @@
+This project will be to create a basci to do list, using html, css and javascript, employing the skills learned at the time to
+utilize arrays, loops and dom manipulation.
