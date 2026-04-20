@@ -1,3 +1,46 @@
 body{
+    display: flex;
+    flex-direction: column;
     background-image: url(/images/notebook-background.jpg);
+    background-size: 100vw 100vh;
+    gap: 15px;
 }
+
+.heading{
+    display: flex;
+    flex-grow: 0;
+    justify-content: center;
+    border: solid black;
+    background-color: rgb(128, 138, 135, 0.5);
+    border-radius: 25px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+h1{
+    text-align: center;
+    width: fit-content;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    background-color: rgb(128, 138, 135, 0.5);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#add-task-button{
+    border: solid black;
+    border-radius: 25px;
+    margin: 10px;
+    width: 200px;
+    height: 35px;
+}
+
+#to-do-list{
+    border: solid black;
+    margin: 10px;
+}
+
